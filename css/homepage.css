@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  background: #f8f8f8;
+  color: #232323;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.header-top-img {
+  width: 100%;
+  display: block;
+}
+
+nav .green-bar {
+  background: #b5dacb;
+  height: 8px;
+  border: none;
+  margin: 0;
+}
+.nav-list {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 3px;
+  font-size: 2rem;
+  gap: 50px;
+}
+img.nav-logo 
+{ width: 40px;
+  float:left;
+  margin-left: 20px;
+  margin-bottom: 0px;
+
+  
+}
+.nav-list a.mountain-font {
+  font-family: 'Mountains of Christmas', cursive;
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 2rem;
+}
+.nav-list a.mountain-font:hover {
+  color: #b22222;
+}
+
+
+.search-section {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 5%;
+}
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.search-input {
+  width: 350px;
+  height: 40px;
+  border: 2px solid #222;
+  border-radius: 24px;
+  padding-left: 16px;
+  font-size: 1.1rem;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+.search-btn {
+  background: transparent;
+  border: none;
+  margin-left: -55px;
+  cursor: pointer;
+}
+.icon-search { width: 38px; }
+.icon-actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.nav-icon { width: 36px; }
+
+.red-bar {
+  background: #ec908d;
+  height: 8px;
+  border: none;
+  margin: 0;
+}
+
+
+.moto-section {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 18px 5%;
+  gap: 16px;
+}
+.moto-img { width: 54px; }
+.moto-title {
+  font-size: 2rem;
+  font-family: 'Mountains of Christmas', cursive;
+  margin-right: 12px;
+}
+.moto-text {
+  font-size: 1.25rem;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+
+.promo-section {
+  background: #fff;
+  border-top: 8px solid #ec908d;
+  border-bottom: 8px solid #ec908d;
+  padding: 20px 5% 10px 5%;
+  margin-bottom: 14px;
+}
+.promo-title {
+  font-size: 2rem;
+  font-family: 'Mountains of Christmas', cursive;
+  display: block;
+}
+.promo-desc {
+  margin: 12px 0;
+  font-size: 1.13rem;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+.promo-link {
+  color: #ec908d;
+  font-size: 1rem;
+  font-family: 'Quicksand', Arial, sans-serif;
+  text-decoration: none;
+}
+
+
+.products-section {
+  background: #b5dacb;
+  padding: 32px 5% 32px 5%;
+}
+.products-title {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+.products-decor
+ {
+  display: block;
+  margin-bottom: 10px;
+  width: 70px;
+}
+.buy-now-btn {
+  float: right;
+  margin-top: -74px;
+  margin-right: 18px;
+  padding: 8px 22px;
+  font-size: 1.2rem;
+  border: 1px solid #232323;
+  border-radius: 5px;
+  background: #fff;
+  color: #232323;
+  cursor: pointer;
+}
+.products-grid {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px #bdd;
+  padding: 18px 14px 14px 14px;
+  text-align: center;
+}
+.product-img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 14px;
+}
+.product-desc {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1.08rem;
+  margin-bottom: 0px;
+}
+.learn-more-link {
+  color: #ec908d;
+  text-decoration: none;
+  font-size: 1.07rem;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+.quiz-section {
+  padding: 24px 5% 18px 5%;
+  background: #fff;
+  border-radius: 9px;
+  margin: 32px 0;
+}
+.quiz-title {
+  font-size: 1.5rem;
+  font-family: 'Mountains of Christmas', cursive;
+}
+.quiz-desc {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1.18rem;
+  margin: 10px 0;
+}
+.quiz-btn {
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1.1rem;
+  border: 1px solid #232323;
+  border-radius: 5px;
+  background: #fff;
+  padding: 7px 27px;
+  cursor: pointer;
+}
+
+
+.gift-banner {
+  margin: 24px 0 0 0;
+  background: #ec908d;
+  color: #fff;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Mountains of Christmas', cursive;
+  letter-spacing: .03em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.gift-img 
+{ 
+  width: 54px;
+  float: left;
+  margin-left: 10px;
+}
+
+
+footer {
+  margin-top: 18px;
+  background: #fff;
+  border-top: 8px solid #b5dacb;
+  padding: 22px 0 12px 0;
+  font-size: 1.05rem;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.footer-img {
+  width: 36px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.footer-content button {
+  background: #ec908d;
+  color: #fff;
+  border: none;
+  padding: 6px 18px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1.07rem;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-info img {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-info p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media (max-width:1200px) {
+  .products-grid { flex-direction: column; align-items: center; }
+  .footer-bottom { flex-direction: column; gap: 6px; }
+  .search-section, .moto-section, .promo-section, .products-section, .quiz-section { padding-left: 2%; padding-right: 2%; }
+}

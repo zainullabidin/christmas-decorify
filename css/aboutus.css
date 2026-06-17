@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+body {
+  margin: 0;
+  background: #f8f8f8;
+  color: #222;
+}
+
+.top {
+  width: 100%;
+  display: block;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: 'Quicksand', Arial, sans-serif;
+}
+
+
+nav .gl 
+{ 
+   height: 8px;
+  border: none;
+  background: #b5dacb;
+ }
+nav .rl
+ { 
+   height: 8px;
+  border: none;
+  background: #ec908d; 
+}
+.nav-list
+ {
+    font-family: 'Mountains of Christmas', cursive;
+
+  display: flex;
+  justify-content: flex-start;
+
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  gap: 48px;
+  text-align: right;
+  align-items: right;
+
+}
+
+.nav-logo 
+{ width: 40px; 
+  justify-content: flex-start;
+  margin-left: 10px;
+
+ }
+
+.nav-list a
+ {
+  color: #222;
+  text-decoration: none;
+  text-align: right;
+  align-items: right;
+  
+}
+
+main {
+  margin: 30px auto 0 auto;
+  background: #f7f7f7;
+  padding: 0 16px 32px 16px;
+}
+
+.about-section, .team-section {
+  margin-bottom: 2px;
+  
+}
+h2,h3{
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+
+
+.about-section p{
+
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 1.19rem;
+
+  line-height: 1.5;
+
+}
+ .team-section p {
+  font-family: 'Quicksand', Arial, sans-serif;
+ 
+
+  line-height: 1.5;
+}
+
+.category-list,
+.quiz-list {
+  margin: 12px 0 16px 25px;
+  font-size: 1.08rem;
+}
+
+.red-box 
+{
+  background: #ec908d;
+  color: #fff;
+  padding: 18px 16px;
+
+
+}
+
+.red-box h2, .red-box h3 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.team-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+
+  border: 1px solid #ccc;
+}
+
+footer {
+  margin-top: 18px;
+  background: #fff;
+  border-top: 8px solid #b5dacb;
+  padding: 22px 0 12px 0;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.footer-img {
+  width: 36px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.footer-content button {
+  background: #ec908d;
+  color: #fff;
+  border: none;
+  padding: 6px 18px;
+  border-radius: 13px;
+  cursor: pointer;
+  font-family: 'Quicksand', Arial, sans-serif;
+
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-info img {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
