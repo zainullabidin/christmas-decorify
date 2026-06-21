@@ -51,7 +51,7 @@ The full Figma design includes 8 pages (Homepage, Products, Product Detail, Cart
 
 ## Live Site
 
-Deployed via GitHub Pages: [zainullabidin.github.io/christmas-decorify](https://zainullabidin.github.io/christmas-decorify/homepage.html)
+Deployed via GitHub Pages: [zainullabidin.github.io/christmas-decorify](https://zainullabidin.github.io/christmas-decorify/)
 
 ---
 
